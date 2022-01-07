@@ -1,1 +1,1 @@
-console.log("Test Script File");
+document.getElementById("demo").innerHTML= "Welcome to JavaScript Basic to Advanced";
