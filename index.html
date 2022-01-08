@@ -11,14 +11,17 @@
 
 <body>
      <header>
-          <h2>JavaScript Can Change HTML Styles (CSS)</h2>
+          <h2>JavaScript Can Show and Hide HTML Elements</h2>
      </header>
      <main>
-          <h4>Changing the style of an HTML element, is a variant of changing an HTML attribute:</h4>
+          <h4>Showing/Hiding HTML elements can be done by changing the <code>display </code>style</h4>
           <div class="lightContainer">
-               <p id="buttonStyle">Button Click can change my styles</p>
+               <p id="textShowHide">Button Click can change my styles</p>
                <br>
-               <button type="button" onclick='document.getElementById("buttonStyle").style.fontSize= "40px"'>Change the paragraph style.</button>
+               <button type="button" onclick='document.getElementById("textShowHide").style.display= "none"'>Hide the
+                    paragraph.</button>
+               <button type="button" onclick='document.getElementById("textShowHide").style.display= "block"'>Show the
+                    paragraph.</button>
           </div>
      </main>
      <footer>
