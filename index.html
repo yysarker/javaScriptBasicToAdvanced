@@ -10,12 +10,24 @@
 </head>
 
 <body>
-     <h2 id="demo">Hello JavaScript Basic to Advanced Course.</h2>
-
-     <h4>What is your name? </h4>
-     <p id='changeName'></p>
-     <button type="button" onclick='document.getElementById("changeName").innerHTML="My Name is Yeahyea Sarker."'>Click for Name</button>
-
+     <header>
+          <h2>JavaScript Can change HTML Attribute values</h2>
+     </header>
+     <main>
+          <h4>In this example JavaScript change the value of the <code>src</code> (source) attribute of an
+               <code>'<\img>'</code> tag
+          </h4>
+          <div class="lightContainer">
+               <button type="button"
+               onclick='document.getElementById("myImage").src="./images/pic_bulbon.gif"'>Turn on the Light</button>
+               <img id="myImage" src="./images/pic_bulboff.gif" alt="Light off">
+               <button type="button"
+               onclick='document.getElementById("myImage").src="./images/pic_bulboff.gif"'>Turn off the Light</button>
+          </div>
+     </main>
+     <footer>
+          <p>All right reserved Yeahyea Sarker -@2022</p>
+     </footer>
      <script src="script.js"></script>
 </body>
 
