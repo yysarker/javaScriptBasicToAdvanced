@@ -11,18 +11,14 @@
 
 <body>
      <header>
-          <h2>JavaScript Can change HTML Attribute values</h2>
+          <h2>JavaScript Can Change HTML Styles (CSS)</h2>
      </header>
      <main>
-          <h4>In this example JavaScript change the value of the <code>src</code> (source) attribute of an
-               <code>'<\img>'</code> tag
-          </h4>
+          <h4>Changing the style of an HTML element, is a variant of changing an HTML attribute:</h4>
           <div class="lightContainer">
-               <button type="button"
-               onclick='document.getElementById("myImage").src="./images/pic_bulbon.gif"'>Turn on the Light</button>
-               <img id="myImage" src="./images/pic_bulboff.gif" alt="Light off">
-               <button type="button"
-               onclick='document.getElementById("myImage").src="./images/pic_bulboff.gif"'>Turn off the Light</button>
+               <p id="buttonStyle">Button Click can change my styles</p>
+               <br>
+               <button type="button" onclick='document.getElementById("buttonStyle").style.cssText="font-size: 35px; color: red; background-color: black"'>Change the paragraph style.</button>
           </div>
      </main>
      <footer>
