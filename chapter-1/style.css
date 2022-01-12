@@ -1,0 +1,59 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     width: 100%;
+     height: 100vh;
+     display: block;
+}
+header{
+     width: 80%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin:  0 auto;
+     height: 100px;
+     color: white;
+     background-color: goldenrod;
+}
+
+main{
+     width: 80%;
+     height: auto;
+     display: block;
+     margin: 0 auto;
+     border: 1px solid goldenrod;
+}
+main h4{
+     padding: 20px 10px;
+     color: goldenrod;
+}
+button{
+     border: none;
+     padding: 15px;
+     border-radius: 5px;
+     color: #fff;
+     cursor: pointer;
+     background-color:  goldenrod;
+}
+.lightContainer{
+     width: 100%;
+     text-align: center;
+     display: block;
+}
+code{
+     color: red;
+     font-size: 18px;
+}
+footer{
+     width: 80%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin:  0 auto;
+     height: 50px;
+     color: white;
+     background-color: goldenrod;
+}
