@@ -1,63 +1,56 @@
-//Arithmetic Operator
+// JavaScript Statements
 
-// + - * / % ++ --
+document.getElementById("demo").innerHTML = "Hello Yeahyea Sarker!";
 
-var a = 11;
-var b = 6;
-var c = a +b;
-console.log(a ++);
-console.log(a)
-
-
-
+//JavaScript White Space
 
 /*
-===========
-JavaScript Display possibilities
-===========
+JavaScript ignores multiple spaces. You can add white space to your script more readable
 
-innerHTML()
-document.write()
-window.alert()
-console.log()
-
-
-innerHTML()
-document.write()
-windows.alert()
-console.log()
-
-
+let person = "Yeahyea";
+let person="Yeahyea";
 */
 
-// Using InnerHTML() 
-// document.getElementById("chapter2").innerHTML = "We learn about JavaScript Operators  a + b = "+c;
-
-//Using document.write()
-// "This only used for testing, because it delete existing data during it loaded"
-// document.write(5 + 6);
-
-
-//Using windows.alert()
+//JavaScript length and line breaks
 
 /*
-You can use an alert box to display data:
+For Best readability, programmers often like to avoid code lines longer then 80 characters.
+If  a JavaScript statement does not fit on one line, the best place to break it is after an operator:
 */
 
-// alert("Yeahyea Sarker !");
+document.getElementById("demo").innerHTML = 
+"Yeahyea Sarker";
 
-//Using console.log()
+//JavaScript Code Blocks
 
-/*
-For debugging purposes, you can call the console.log() method in the browser to display data.
-*/
+/**
+ * JavaScript Statements can be grouped together in code blocks, inside curly brackets{....}.
+ * The Purpose of code blocks is to define statements to be executed together.
+ * One place you will find statements grouped together in blocks, is is JavaScript functions:
+ */
 
-console.log("Hello World")
+function myFunction() {
+     document.getElementById("demo1").innerHTML = "JavaScript Block One ";
+     document.getElementById("demo2").innerHTML = "JavaScript Block Two";
+}
+myFunction();
 
-//JavaScript Print
 
-/*
-JavaScript does not have any print object or print methods. You cannot access output devices from JavaScript.
-The only exception is call the window.print() method in the browser to print the content of the current window.
-*/
+//JavaScript Keywords
+/**
+ * JavaScript Statements often start with a keyword to identify the JavaScript action to be performed.
+ * Here is the Reserved Words Reference list of JavaScript keywords.
+ */
 
+/**
+ * Keywords    ======  Description.
+ * Var              ======  Declares a variable.
+ * Let               ======  Declares a block variable.
+ * Const           ======  Declares a block variable.
+ * if                  ======   Marks a block of statements to be executed on a condition
+ * switch          ======   Marks a block of statements to be executed on a different cases
+ * for               ======   Marks a block of statements to be executed in a loop
+ * function      ======   Declares a function
+ * return         ======    Exits a function
+ * try               ======  Implements error handling to a block statements
+ */
