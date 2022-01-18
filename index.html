@@ -16,20 +16,22 @@
      <main>
           <!-- Change HTML Attribute Values -->
           <div class="lightContainer">
-               <h2>JavaScript Object</h2>
-               <p>JavaScript Object</p>
-               <p id="demo"></p>
-               <p id="demo1"></p>
+               <h2>JavaScript Events</h2>
+               <p>JavaScript Events</p>
+               <p id="demo">What Time is it?</p>
+               <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">The Time is?</button>
+               <button type="button" onclick="this.innerHTML = Date()">The Time is?</button>
+               <button type="button" onclick="displayDate()">The Time is?</button>
           </div>
           <br>
           <br>
      </main>
 
      <footer>
-          <p>All right reserved Yeahyea Sarker -@2022</p>
+          <p>All right reserved Yeahyea Sarker - @2022</p>
      </footer>
 
-     <script src="objects.js"></script>
+     <script src="events.js"></script>
 </body>
 
 </html>
